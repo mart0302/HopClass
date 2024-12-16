@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+.fluent--animal-rabbit-24-filled {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23312651' d='m15.53 5.437l5.426 5.437a3.576 3.576 0 0 1 0 5.049a3.56 3.56 0 0 1-3.342.95v.124a2 2 0 0 1-2 2.003h-2.11l.001-.748l-.005-.168a2.75 2.75 0 0 0-2.57-2.58l-.174-.006h-1l-.101.007a.751.751 0 0 0 0 1.488l.102.007h1l.127.007a1.25 1.25 0 0 1 1.115 1.117l.007.128l-.001.748h-5a2 2 0 0 1-1.998-2.003v-2.504q0-.286.034-.562q-.261.06-.542.06A2.5 2.5 0 0 1 2 11.489a2.5 2.5 0 0 1 2.499-2.504a2.5 2.5 0 0 1 2.407 1.83a4.46 4.46 0 0 1 2.599-.829h3.611c.603 0 1.179.12 1.705.335a4.2 4.2 0 0 1 .597-.779l-1.992-1.995a1.494 1.494 0 0 1 0-2.11a1.486 1.486 0 0 1 2.105 0'/%3E%3C/svg%3E");
+    width: 50px;
+    height: 42px;
+}  
+.logo{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    color: #312651;
+}
+
+.navbar-custom{
+    background-color: #27bec2;
+}
+.logoig{
+    width: 50px;
+    height: 52px;
+    margin-left: 10px;
+}
+#btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #27bec2;
+}
+#btn:hover{
+    color: #ffffff;
+    background-color: #e695fd;
+}
+#btn:active{
+    border-color: white !important;
+}
+
+#btnNotificacion{
+    padding: 0px;
+}
+#btnNotificacion:hover{
+    color: #8D99AE;
+}
+#btnNotificacion:active{
+    border-color: white !important;
+}
+#btnNotificacionSeccion{
+    padding: 0px;
+}
+#btnNotificacionSeccion:hover{
+    color: #8D99AE;
+}
+#btnNotificacionSeccion:active{
+    border-color: white !important;
+}
+
+#ico{
+    padding-right: 0px;
+}
+#btn1{
+    position: relative;
+    margin-left: 20%;
+}
+#btn1:hover{
+    color: #8D99AE;
+}
+#btn1:active{
+    border-color: white !important;
+}
+#areat{
+    height: 60px;
+}
+.btn-close:focus{
+    box-shadow: none !important;
+}
+/*Boton*/
+#boton{
+    padding: 0px;
+}
+.offcanvas-header{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+ 
+/*Filtro*/
+#menu * { 
+    list-style:none;
+}
+#menu li{ 
+    line-height:100%;
+}
+  
+/*Estilos de los ultimos niveles*/
+#menu li a{
+    color:black; 
+    text-decoration:none;
+}
+#menu li a:hover{
+    color:rgb(141,153,174); 
+}
+#menu li a::after{ 
+    content:"\025be"; 
+    color:white; 
+    width: 30%;
+    margin-right:0.5vh;
+    font-size:large;
+}
+#menu input[name="list"] {
+      position: absolute;
+      left: -1000em;
+}
+#menu label::after{ 
+    content:"\025be"; 
+    margin-right:10px;
+    color: black;
+    font-size:x-large;
+    margin-left: 10%;
+    vertical-align:bottom;
+}
+#menu input:checked ~ label::after{ 
+    content:"\0025B4 ";
+    font-size:x-large;
+    color:rgb(141,153,174);
+}
+#menu .interior{
+    display: none;
+}
+#menu input:checked ~ ul{
+    display:block;
+}
+  
+/*Estilo de los niveles*/
+.nivel1, .nivel2{
+    font-size:large;
+    margin: 2vh 0px;
+    height: 10vh;
+}
+.nivel2{
+    margin: 0px;
+    width:100%
+}
+.filtro{
+    margin-top: 3vh;
+    margin-bottom:3vh;
+}
+.nivel1:hover{
+    color: rgb(141,153,174);
+}
+  
+/*Estilos boton de usuario*/
+.nombreusuario{
+    width: 100%; 
+    height: 10vh;
+    background-color: rgb(43,45,66);
+    margin-left:0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.nombreusuario:hover{
+    color:white;
+}
+   
+/*Estilo de los iconos del menu*/
+.iconom{
+    font-size: xx-large;
+    vertical-align:middle;
+    margin-right: 9%;
+}
+.iconom:hover{
+    color:rgb(141,153,174);
+}
+div.modal-backdrop.fade.show {
+    z-index: 1 !important;
+}
+.botonu{
+    width: 100%; 
+    height: 10vh;
+    background-color: rgb(43,45,66);
+    font-size:x-large;
+    color:white;
+    padding: 3vh;
+}
+.botonu:visited{
+    color:white;
+    border-color: rgb(43,45,66);
+}
+.botonu:active{
+    color:white;
+    border-color: rgb(43,45,66) !important;
+}
+.botonu:hover{
+    color:white;
+    border-color: rgb(43,45,66)
+}
+.botonu p{
+    position: absolute;
+    left: 30%;
+    bottom: 2%; 
+}
+.botonu i{
+    position: absolute;
+    left: 10%;
+    bottom: 9px;
+    font-size: 7vh;
+}
+input #boton .btn{
+    border-color:rgb(141,153,174) !important; 
+}
+.btn:active{
+    border-color:rgb(141,153,174) !important; 
+}
+.dropdown-item:active{
+    background-color: rgb(141,153,174);
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: rgb(141,153,174);
+    color: white;
+}
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+    border-color: rgb(43,45,66);
+  }
+.text-start{
+    border: none;
+}
+label.nivel2{
+    height: 35px;
+}
+label.nivel2:hover{
+    color: rgb(141,153,174);
+}
+label.filtro.nivel1{
+    height: 40px;
+    margin-top: 1vh;
+}
+a.nivel3{
+    line-height:2;
+}
+a.nivel3:hover{
+    line-height:2;
+}
+#menu label.nivel3::after, .nivel4::after{
+    color: white !important;
+}
+label .nivel3{
+    font-size:x-small !important;
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+    .botonu{
+      height: 8vh;
+    }
+    .botonu p{
+        position: absolute;
+        left: 30%;
+        font-size: x-large; 
+        bottom: 1vh;
+    }
+}
+@media screen and (max-width: 950px) and (min-width: 821px){
+    #demo {
+        width: 50%;
+      }
+      .botonu{
+        height: 10vh;
+      }
+      .botonu i{
+        left: 7%;
+        bottom: 2vh;
+        font-size: 6vh;
+      }
+      .botonu p{
+          left: 30%;
+          font-size:medium; 
+          bottom:2vh;
+          margin-bottom: 1px;
+      }
+      .nivel1{
+        height: 8vh; 
+        font-size: medium;
+      }
+  }
+  @media screen and (max-width: 820px) and (min-width: 800px){
+      .nombreusuario{
+        height: 5vh;
+      }
+      .botonu i{
+        bottom: 0vh;
+        font-size: 5vh;
+      }
+      .botonu p{
+          left: 30%;
+          font-size:large; 
+          bottom:1vh;
+          margin-bottom: 2px;
+      }
+  }
+@media screen and (max-width: 799px) and (min-width: 700px){
+    #demo {
+        width: 50%;
+      }
+      .botonu{
+        height: 10vh;
+      }
+      .botonu i{
+        left: 7%;
+        bottom: 2vh;
+        font-size: 6vh;
+      }
+      .botonu p{
+          left: 30%;
+          font-size:medium; 
+          bottom:2vh;
+          margin-bottom: 1px;
+      }
+      .nivel1{
+        font-size: medium;
+      }
+  }
+@media only screen and (max-width: 700px) and (min-width: 300px){
+    #demo {
+      width: 70%;
+    }
+    .botonu{
+      height: 10vh;
+    }
+    .botonu i{
+      left: 5%;
+      bottom: 2.5vh;
+      font-size: 5vh;
+    }
+    .botonu p{
+        position: absolute;
+        left: 30%;
+        font-size: large; 
+        bottom: 14% !important;
+    }
+    .nivel2{
+      font-size: medium;
+    }
+    i.bx.bx-folder.iconom, i.bx.bx-folder-plus.iconom{
+      font-size: medium;
+    }
+    label.nivel3{
+      width: 75%;
+      font-size: medium;
+    }
+    ul {
+        padding-left: 1rem;
+    }
+}
+/*Boton eliminar y editar*/
+.botonee{
+    border-color:rgb(141,153,174);
+    color: rgb(141,153,174);
+    background-color: white;
+}
+.botonee:hover{
+    border-color:rgb(141,153,174);
+    background-color: #8D99AE;
+    color: white;
+}
+.centrarb {
+    margin:auto;
+  }
+.textU{
+    color: white;
+}
+.textU:active{
+    color: white;
+}
+
+.card-header {
+    background-color: #312651; 
+    padding: 15px;
+    color: #01D8DD;
+}
+button{
+    background-color: #27bec2;
+    padding: 12px 24px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.footer {
+    background-color: #a7e7e1;
+    color: #000000;
+}
+
+.contenedor-centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

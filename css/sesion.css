@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EDF2F4;
+}
+.iconom{
+    font-size: xx-large;
+    color: #2B2D42;
+}
+.lt{
+    color: #2B2D42;
+}
+.lt:hover{
+    color: #8D99AE;
+}
+.logoig{
+    width: 50px;
+    height: 52px;
+    margin-left: 10px;
+}
+#btn1{
+    position: relative;
+    margin-left: 20%;
+}
+#btn1:hover{
+    background-color: #e695fd;
+    color: #ffffff;
+}
+#btn1:active{
+    border-color: white !important;
+}
+#btn2:hover{
+    background-color: #e695fd;
+    color: #ffffff;
+}
+#btn2:active{
+    border-color: white !important;
+}
+.button{
+    background-color: #27bec2;
+    padding: 10px 24px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    color: white;
+}
+#btn2{
+    background-color: #27bec2;
+    padding: 10px 24px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    color: white;
+}
+form {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px; 
+}

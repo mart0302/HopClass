@@ -1,0 +1,98 @@
+/* tarjetas.css */
+
+/* Configuración básica de las tarjetas */
+/* Estilo para posicionar el contenedor en la esquina inferior derecha */
+body, html {
+    height: 100%; /* Asegura que el cuerpo y HTML ocupen todo el espacio disponible */
+}
+
+.container {
+    position: absolute; /* Posiciona el contenedor de manera absoluta */
+    bottom: 20px; /* Se alinea con un margen de 20px al fondo */
+    right: 20px; /* Se alinea con un margen de 20px a la derecha */
+    margin: 20px; /* Agrega un pequeño margen para no pegar el contenedor a los bordes */
+}
+.container.pt-6 {
+    padding-top: 80px; /* Ajusta el valor según lo que necesites */
+}
+.col-lg-4.mb-3 {
+    margin-top: 20px; /* Ajusta según lo necesites */
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Agrandar la tarjeta al pasar el mouse */
+}
+
+/* Configuración de los encabezados de las tarjetas */
+.card-header {
+    border-radius: 10px 10px 0 0;
+    padding: 10px; /* Agrega espacio alrededor del texto */
+    font-weight: bold; /* Hacer que el texto en los encabezados sea en negrita */
+}
+
+/* Configuración para distintos colores en los encabezados */
+.card-header.bg-primary {
+    background-color: #007bff;
+}
+
+.card-header.bg-warning {
+    background-color: #ffc107;
+}
+
+.card-header.bg-success {
+    background-color: #28a745;
+}
+
+.card-header.bg-info {
+    background-color: #17a2b8;
+}
+
+/* Configuración para el contenido de las tarjetas */
+.card-body {
+    padding: 20px;
+    font-size: 16px; /* Tamaño de fuente más legible */
+}
+
+/* Estilos adicionales */
+.list-unstyled li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 14px; /* Ajuste de tamaño de fuente */
+}
+
+.rounded-circle {
+    background-color: #6c757d;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-3 {
+    margin-left: 15px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.espaciado-header {
+padding-top: 30px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}

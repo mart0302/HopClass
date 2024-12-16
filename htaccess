@@ -1,0 +1,16 @@
+
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/Mexico_City
+
+ Desactivar redirección a HTTPS en entorno local
+ RewriteCond %{HTTP:X-Forwarded-Proto} !https
+ RewriteCond %{HTTPS} off
+ RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+RewriteEngine On
+ RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

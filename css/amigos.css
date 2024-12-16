@@ -1,0 +1,104 @@
+/*Menu*/
+* {
+    box-sizing: border-box
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/*Menu*/
+.tablink {
+  background-color:#8D99AE;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: white;
+  color: black !important;
+}
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+  height: 20%;
+}
+button.tablink.tarea {
+  width: 33.3333% !important;
+}
+/*Tarjetas*/
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    text-align: center;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .button {
+    border:none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #8D99AE;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #8D99AE;
+    color: white;
+  }
+
+  /*Buscador*/
+  input[type=email] {
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid #8D99AE;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-size:contain;
+    background-position-y: 2px; 
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+  }
+  
+  input[type=text]:focus {
+    border-color: #8D99AE;
+  }
+  input[type=text]:focus-visible {
+    border:none !important;
+  }
+  #bbuscaramigo{
+    width: 8%;
+    background-color: #8D99AE;
+    height: 7.6vh;
+    color: white;
+  }
+  #bbuscaramigo:hover{
+    background-color: white;
+    color: #8D99AE;
+  }
